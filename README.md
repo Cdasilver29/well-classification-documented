@@ -1,5 +1,5 @@
 # Tanzania-Water-wells-Project
-"C:\Users\Calvine Mugunda\Documents\Tanzania-Water-wells-Project\Well_IMAGE1.jpeg"
+![alt text](Well_IMAGE1-1.jpeg)
 
  ## <li> **Business Understanding**
 Tanzania faces a water crisis due to limited infrastructure, uneven distribution, poor water quality, climate change, and population growth. We are working on a project that utilizes machine learning to predict well success, optimize resource allocation, and ultimately break the cycle of water insecurity and poverty.
