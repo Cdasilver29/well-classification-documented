@@ -44,12 +44,12 @@ We will delve into understanding the data. We'll employ visualization techniques
 
  regional variations in factors like water quality, climate, or infrastructure influencing the functionality of waterpoint pumps.
 
-![alt text](image.png)
+![alt text](<output 2-1.png>)
 
 
 correlation between the amount of water available at a waterpoint and the functionality of its pump.
 
-![alt text](image-1.png)
+![alt text](output-1.png)
 
 
 #### EDA conclusion
