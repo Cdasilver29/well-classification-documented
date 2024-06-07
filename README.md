@@ -15,11 +15,12 @@ Our initial analysis revealed valuable insights about the Tanzanian water point 
 
 #### Steps to follow
 we will use **OSEMN** framework and this are the seps:
-Obtain
-Scrub
-Explore
-Model
-Interpret
+
+*Obtain
+*Scrub
+*Explore
+*Model
+*Interpret
 
 ## <li> **Data Preposing and Analysis**
 
