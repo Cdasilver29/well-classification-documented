@@ -22,6 +22,14 @@ we will use **OSEMN** framework and this are the seps:
 *Model
 *Interpret
 
+## <LI> Tech Stack
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-Learn
+
 ## <li> **Data Preposing and Analysis**
 
 #### Data Preparation(cleaning)
@@ -53,3 +61,38 @@ Prioritize water conservation in regions with low water availability.
 Implement targeted maintenance programs in areas with many non-functional pumps.
 Investigate the link between water hardness and pump materials for future well construction.
 This focuses on the key findings and actionable recommendations for the Tanzanian government.
+
+## <li> Modeling
+* To prepare our data to machine learning, we did some feature engineering, encoding and scaling.
+
+* While other models achieved higher individual accuracy scores, our analysis prioritized the **KNeighborsClassifier** for its well-generalized performance (71% accuracy on unseen data). This model excels at avoiding overfitting, a crucial factor for reliable predictions on new well data.
+
+## <li> Findings
+* Water Quality: Soft water pumps tend to be more functional.
+* Water Availability: Waterpoints with sufficient water are most functional.
+
+* Regional Disparity:
+
+1. Iringa, Kilimanjaro, and Shinyanga have the most functional pumps.
+2. Kilimanjaro and Mbeya have the most non-functional pumps.
+3. Kigoma has the most waterpoints needing repair.
+
+* Water Source:
+
+1. Springs and shallow wells have the most functional pumps.
+2. Springs have the most frequently repaired functional pumps.
+3. Shallow wells and boreholes have the most non-functional pumps.
+
+* Water Scarcity: Waterpoints with insufficient water have very few functional pumps.
+
+## <li> Recommendations
+
+* Prioritize Springs: Build new waterpoints near springs whenever possible to extend pump life.
+* Monitor Abundant Sources: Keep a close eye on high-water table wells to prevent overuse and pump failure.
+
+## <li> Next step
+
+Continuously improve the model for well pump prediction to optimize maintenance resource allocation.
+
+
+
