@@ -65,7 +65,7 @@ This focuses on the key findings and actionable recommendations for the Tanzania
 ## <li> Modeling
 * To prepare our data to machine learning, we did some feature engineering, encoding and scaling.
 
-* While other models achieved higher individual accuracy scores, our analysis prioritized the **KNeighborsClassifier** for its well-generalized performance (71% accuracy on unseen data). This model excels at avoiding overfitting, a crucial factor for reliable predictions on new well data.
+* While other models achieved higher individual accuracy scores, our analysis prioritized the **RandomForestClassifier** for its well-generalized performance (78% accuracy on unseen data). This model excels at avoiding overfitting, a crucial factor for reliable predictions on new well data.
 
 ## <li> Findings
 * Water Quality: Soft water pumps tend to be more functional.
