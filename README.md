@@ -63,9 +63,11 @@ Investigate the link between water hardness and pump materials for future well c
 This focuses on the key findings and actionable recommendations for the Tanzanian government.
 
 ## <li> Modeling
-* To prepare our data to machine learning, we did some feature engineering, encoding and scaling.
+* To prepare our data to machine learning, we did some encoding and scaling.
 
 * While other models achieved higher individual accuracy scores, our analysis prioritized the **RandomForestClassifier** for its well-generalized performance (78% accuracy on unseen data). This model excels at avoiding overfitting, a crucial factor for reliable predictions on new well data.
+
+![alt text](image-2.png)
 
 ## <li> Findings
 * Water Quality: Soft water pumps tend to be more functional.
